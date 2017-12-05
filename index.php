@@ -7,7 +7,7 @@
 <div class="container">
 	<div class="row">
 	<div class="col-lg-12">
-		<img src="img/banner3.jpg" class="img-responsive center-block" alt="Responsive image">
+		<img src="img/banner3.jpg" class="img-responsive center-block" alt="Responsive image" style="margin-top: 50px;">
 	</div>
 	<div class="col-lg-4"></div>
 	<div class="col-lg-4"></div>
