@@ -1,5 +1,7 @@
 <?php
-$companyFullName = "上海瑛泰知信息科技有限公司 INTEMASH";
-$companyShortName = "INTEMASH 英泰知";
-$icpCode = "沪ICP备15008690号-1";
+$companyFullName = "江阴福瑞来网络技术有限公司 FREELIFE";
+$companyShortName = "FREELIFE 福瑞来";
+$icpCode = "苏ICP备17071225号-1";
+$contactPhone = "15190351985";
+$contactMail = "info@jyfrl.com";
 ?>

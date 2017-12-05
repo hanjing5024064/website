@@ -11,10 +11,10 @@
 <table width="100%">
  <tr>
   <td rowspan="2" width="50%" class="text-right"><span class="text-right" style="float: right; margin-right: 10px;"><img src="img/qrcode.jpg" class="img-responsive center-block" alt="Responsive image" style="width:50px;height:50px;"/></span></td>
-  <td class="text-left"><a href="tel:15190351982"><span class="glyphicon glyphicon-earphone" aria-hidden="true">15190351982</span></a></td>
+  <td class="text-left"><a href="tel:15190351982"><span class="glyphicon glyphicon-earphone" aria-hidden="true"><?php echo $contactPhone?></span></a></td>
  </tr>
  <tr>
-  <td class="text-left"><a href="mailto:info@intemash.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true">info@intemash.com</span></a></td>
+  <td class="text-left"><a href="mailto:info@intemash.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"><?php echo $contactMail?></span></a></td>
  </tr>
 </table>
  </div>

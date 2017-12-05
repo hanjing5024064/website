@@ -14,7 +14,7 @@
 			<li <?php if(isset($nav) && $nav == "wechat")echo "class=\"selected\"";?>><a href="wechat.php"><i class="fa fa-tasks"></i> 微信</a></li>
 			<li <?php if(isset($nav) && $nav == "website")echo "class=\"selected\"";?>><a href="website.php"><i class="fa fa-bullseye"></i> 网站</a></li>
 			<li <?php if(isset($nav) && $nav == "itservice")echo "class=\"selected\"";?>><a href="itservice.php"><i class="fa fa-table"></i> IT服务</a></li>
-			<li <?php if(isset($nav) && $nav == "aboutus")echo "class=\"selected\"";?>><a href="aboutus.php"><i class="fa fa-globe"></i> 关于我们</a></li>
+			<!--<li <?php if(isset($nav) && $nav == "aboutus")echo "class=\"selected\"";?>><a href="aboutus.php"><i class="fa fa-globe"></i> 关于我们</a></li>-->
 <!--			<li><a href="building.php"><i class="fa fa-tasks"></i> 应用</a></li>-->
 <!--			<li><a href="building.php"><i class="fa fa-globe"></i> Demo版</a></li>-->
 <!--			<li><a href="building.php"><i class="fa fa-list-ol"></i> IT服务</a></li>-->
