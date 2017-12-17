@@ -1,24 +1,19 @@
-<?php include("config.php");?>
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<?php include("config.php"); ?>
+<!doctype html>
 <html lang="en">
 <head>
+    <title><?php if (isset($title)) echo $title . " - ";
+        echo $companyShortName; ?></title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title><?php if(isset($title))echo $title." - "; echo $companyShortName;?></title>
-	<meta name="description" content="微信,软件,系统,网站,应用,开发,集成,英泰知">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="微信,软件,系统,网站,应用,开发,集成,英泰知">
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
 </head>
 <body>

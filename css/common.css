@@ -4,7 +4,7 @@
  border-color:white;
 }
 */
-.container {height: auto; min-height: 100%; margin-top:50px;}
+.container {height: auto; min-height: 100%;}
 .container {padding-bottom: 60px;}  /* 必须使用和footer相同的高度 */
 
 .selected {
