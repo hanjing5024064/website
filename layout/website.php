@@ -5,7 +5,7 @@
  * Date: 12/17/17
  * Time: 10:52 PM
  */
-include('element/header.php');
+include($baseDir.'element/header.php');
 $nav = array_key_exists('nav', $_GET)?$_GET['nav']:'wechat';
 switch($nav){
     case 'wechat':
@@ -24,15 +24,15 @@ switch($nav){
 ?>
 
     <div id="header">
-        <?php include('element/nav.php');?>
+        <?php include($baseDir.'element/nav.php');?>
     </div>
 
     <div class="container">
-        <?php include($nav.'.php');?>
+        <?php include($baseDir.$nav.'.php');?>
     </div>
 
     <!-- /#wrapper -->
     <script type="text/javascript">
     </script>
 
-<?php include('element/footer.php');?>
+<?php include($baseDir.'element/footer.php');?>

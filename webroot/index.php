@@ -1,4 +1,4 @@
 <?php
-require dirname(__DIR__). '/vendor/autoload.php';
-include(dirname(__DIR__).'config/config.php');
-include(dirname(__DIR__).'layout/website.php');
+require '../config/config.php';
+require $baseDir.'vendor/autoload.php';
+include $baseDir.'layout/website.php';

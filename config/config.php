@@ -9,4 +9,5 @@ $icpCode = '苏ICP备17071225号-1';
 $policeCode = '京公网安备11000002000016号';
 $contactPhone = '15190351982';
 $contactMail = 'info@shhwxx.com.cn';
-?>
+
+$baseDir = '../';
