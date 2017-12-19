@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-lg-12">
-        <img src="img/banner_itservice.png" class="img-responsive center-block" alt="服务">
+    <div class="col-lg-12 text-center">
+        <img src="img/banner_itservice.png" class="img-fluid rounded mx-auto d-block" alt="服务">
     </div>
 </div>

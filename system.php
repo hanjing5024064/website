@@ -1,4 +1,4 @@
-<?php $title = '网站'; $nav = "website";?>
+<?php $title = '业务系统'; $nav = "system";?>
 <?php include('element/header.php');?>
 
 <div id="header">

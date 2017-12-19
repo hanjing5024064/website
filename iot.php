@@ -1,4 +1,4 @@
-<?php $title = '网站'; $nav = "website";?>
+<?php $title = '物联网'; $nav = "iot";?>
 <?php include('element/header.php');?>
 
 <div id="header">

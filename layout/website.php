@@ -6,7 +6,7 @@
  * Time: 10:52 PM
  */
 include('element/header.php');
-$nav = array_key_exists('nav', $_GET)?$_GET['nav']:'website';
+$nav = array_key_exists('nav', $_GET)?$_GET['nav']:'wechat';
 switch($nav){
     case 'wechat':
         $title = '微信';

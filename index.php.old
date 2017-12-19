@@ -1,0 +1,21 @@
+<?php include('element/header.php');?>
+
+<div id="header">
+	<?php include('element/nav.php');?>
+</div>
+
+<div class="container">
+	<div class="row">
+	<div class="col-md-8 col-sm-offset-2 text-center">
+		<img src="img/banner3.jpg" class="img-responsive center-block" alt="Responsive image" style="margin-top: 50px;">
+	</div>
+	</div>
+</div>
+
+<!-- /#wrapper -->
+<script type="text/javascript">
+	jQuery(function ($){
+	});        
+</script>
+
+<?php include('element/footer.php');?>
