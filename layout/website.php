@@ -22,7 +22,7 @@ switch($nav){
         break;
 }
 ?>
-
+    <div id="particles-js"></div>
     <div id="header">
         <?php include($baseDir.'element/nav.php');?>
     </div>

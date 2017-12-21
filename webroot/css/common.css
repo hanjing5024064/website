@@ -1,40 +1,10 @@
-/*
-.navbar-inverse{
- background-color:#2A9FD5;
- border-color:white;
-}
-*/
-.container {
-    height: auto;
-    min-height: 100%;
-}
-
-.container {
-    padding-bottom: 60px;
-}
-
-/* 必须使用和footer相同的高度 */
-
-.selected {
-    border-bottom: 7px solid #2A9FD6;
-}
-
-.nav li {
-    height: 50px;
-}
-
-.footer {
-    clear: both;
-    background-color: black;
-    color: #9d9d9d;
-    border-top: 3px solid #222222;
-    margin-top: -60px; /* footer高度的负值 */
-    mix-height: 60px;
-    padding: 10px 0 10px 0;
-    text-align: center;
-}
-
-.footer a:hover {
-    color: #FFF;
-    text-decoration: none;
+#particles-js {
+    position: absolute;
+    /*background: #323840;*/
+    background: linear-gradient(45deg, #347eff 0,#2990ff 50%,#2285ff 50%,#1ea1ff 100%);
+    left: 0;
+    right: 0;
+    top: -80px;
+    bottom: 0;
+    z-index: -1;
 }
