@@ -15,7 +15,10 @@
             <td colspan="2"><h6><?php echo $companyFullName;?></h6></td>
         </tr>
         <tr>
-            <td rowspan="3" class="text-right" style="width: 50%;"><img src="img/qrcode.jpg" alt="Responsive image" style="width:70px;height:70px;"></td>
+            <td rowspan="4" class="text-right" style="width: 50%;"><img src="img/qrcode.jpg" alt="Responsive image" style="width:70px;height:70px;"></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
             <td class="text-left" style="width: 50%;"><span class="glyphicon glyphicon-earphone" aria-hidden="true"><a href="tel:15190351982">15190351982</a></span>
             </td>
         </tr>
@@ -24,10 +27,15 @@
             </td>
         </tr>
         <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <!--
+        <tr>
             <td class="text-left">
                 <a class="copyright" href="index.php"><?php echo ' ' . $icpCode ?></a>
             </td>
         </tr>
+        -->
     </table>
 </footer>
 <!-- Optional JavaScript -->

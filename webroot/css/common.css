@@ -8,3 +8,6 @@
     bottom: 0;
     z-index: -1;
 }
+.img-fluid{
+    height: 400px;
+}

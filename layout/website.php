@@ -6,7 +6,7 @@
  * Time: 10:52 PM
  */
 include($baseDir.'element/header.php');
-$nav = array_key_exists('nav', $_GET)?$_GET['nav']:'wechat';
+$nav = array_key_exists('nav', $_GET)?$_GET['nav']:false;
 switch($nav){
     case 'wechat':
         $title = '微信';
@@ -28,7 +28,7 @@ switch($nav){
     </div>
 
     <div class="container">
-        <?php include($baseDir.$nav.'.php');?>
+        <?php if($nav && file_exists($baseDir.'pages/'.$nav.'.php'))include($baseDir.'pages/'.$nav.'.php');?>
     </div>
 
     <!-- /#wrapper -->
