@@ -13,7 +13,7 @@ body {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 140px;
+    /*height: 140px;*/
     line-height: 20px; /* Vertically center the text there */
     /*background-color:black;*/
     color:#9d9d9d;

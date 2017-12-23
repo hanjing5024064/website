@@ -8,15 +8,15 @@
 
 <footer class="footer">
     <table class="container">
-        <tr>
-            <td colspan="2"><h5>我们一直在努力</h5></td>
-        </tr>
-        <tr>
-            <td colspan="2"><h6><?php echo $companyFullName;?></h6></td>
-        </tr>
+<!--        <tr>-->
+<!--            <td colspan="2"><h5>我们一直在努力</h5></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td colspan="2"><h6>--><?php //echo $companyFullName;?><!--</h6></td>-->
+<!--        </tr>-->
         <tr>
             <td rowspan="4" class="text-right" style="width: 50%;"><img src="img/qrcode.jpg" alt="Responsive image" style="width:70px;height:70px;"></td>
-            <td>&nbsp;</td>
+            <td class="text-left">我们一直在努力</td>
         </tr>
         <tr>
             <td class="text-left" style="width: 50%;"><span class="glyphicon glyphicon-earphone" aria-hidden="true"><a href="tel:15190351982">15190351982</a></span>
@@ -26,9 +26,9 @@
             <td class="text-left"><span class="glyphicon glyphicon-envelope text-left" aria-hidden="true"><a href="mailto:info@intemash.com">info@intemash.com</a></span>
             </td>
         </tr>
-        <tr>
-            <td>&nbsp;</td>
-        </tr>
+<!--        <tr>-->
+<!--            <td>&nbsp;</td>-->
+<!--        </tr>-->
         <!--
         <tr>
             <td class="text-left">
