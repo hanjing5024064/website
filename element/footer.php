@@ -16,14 +16,22 @@
 <!--        </tr>-->
         <tr>
             <td rowspan="4" class="text-right" style="width: 50%;"><img src="img/qrcode.jpg" alt="Responsive image" style="width:70px;height:70px;"></td>
-            <td class="text-left">我们一直在努力</td>
+            <td class="text-left">科技创造自由生活</td>
         </tr>
         <tr>
-            <td class="text-left" style="width: 50%;"><span class="glyphicon glyphicon-earphone" aria-hidden="true"><a href="tel:15190351982">15190351982</a></span>
+            <td class="text-left" style="width: 50%;">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-dianhua"></use>
+                </svg>
+                <a href="tel:15190351982">15190351982</a>
             </td>
         </tr>
         <tr>
-            <td class="text-left"><span class="glyphicon glyphicon-envelope text-left" aria-hidden="true"><a href="mailto:info@intemash.com">info@intemash.com</a></span>
+            <td class="text-left">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-youxiang"></use>
+                </svg>
+                <a href="mailto:info@intemash.com">info@intemash.com</a>
             </td>
         </tr>
 <!--        <tr>-->
@@ -50,6 +58,7 @@
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
 <script src="js/particles.min.js"></script>
+<script src="//at.alicdn.com/t/font_520464_fa1ldzv0wq7u8fr.js"></script>
 <script>
     $(function(){
         /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */

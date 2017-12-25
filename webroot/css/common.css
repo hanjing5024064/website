@@ -11,3 +11,19 @@
 .img-fluid{
     height: 400px;
 }
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.index-icon{
+    width: 10em; height: 10em; color: #44b549;
+}
+.index-card {
+    margin: 40px;
+}
+.card-text {
+    /*text-indent:2em;*/
+    margin-bottom: 5px;
+}

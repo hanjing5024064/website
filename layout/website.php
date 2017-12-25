@@ -6,7 +6,7 @@
  * Time: 10:52 PM
  */
 include($baseDir.'element/header.php');
-$nav = array_key_exists('nav', $_GET)?$_GET['nav']:false;
+$nav = array_key_exists('nav', $_GET)?$_GET['nav']:'index';
 switch($nav){
     case 'wechat':
         $title = '微信';
@@ -17,8 +17,11 @@ switch($nav){
     case 'system':
         $title = '业务系统';
         break;
+    case 'index':
+        $title = '首页';
+        break;
     default:
-        $title = '网站';
+        $title = '首页';
         break;
 }
 ?>
