@@ -1,36 +1,26 @@
 <div class="row">
     <div class="col-lg-12 text-center">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-<!--            <ol class="carousel-indicators">-->
-<!--                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>-->
-<!--                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>-->
-<!--                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>-->
-<!--            </ol>-->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="img-fluid" src="img/wechat/1.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="img/wechat/2.png" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="img/wechat/3.png" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="img/wechat/4.png" alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="img/wechat/4.png" alt="Third slide">
-                </div>
+        <!-- Slider main container -->
+        <div class="swiper-container text-center">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/wechat/1.png"/></div>
+                <div class="swiper-slide"><img src="img/wechat/2.png"/></div>
+                <div class="swiper-slide"><img src="img/wechat/3.png"/></div>
+                <div class="swiper-slide"><img src="img/wechat/4.png"/></div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <!--    <div class="swiper-button-prev"></div>-->
+            <!--    <div class="swiper-button-next"></div>-->
+
+            <!-- If we need scrollbar -->
+            <!--    <div class="swiper-scrollbar"></div>-->
         </div>
     </div>
 </div>
+<script>
+</script>

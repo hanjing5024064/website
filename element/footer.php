@@ -58,12 +58,32 @@
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
 <script src="js/particles.min.js"></script>
+<!--阿里字体-->
 <script src="//at.alicdn.com/t/font_520464_fa1ldzv0wq7u8fr.js"></script>
+<!--swiper-->
+<script src="js/swiper.jquery.min.js"></script>
 <script>
     $(function(){
         /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
         particlesJS.load('particles-js', 'assets/particlesjs-config.json', function() {
             console.log('callback - particles.js config loaded');
+        });
+
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
         });
     });
 </script>
