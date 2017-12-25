@@ -1,13 +1,14 @@
 /* Sticky footer styles
 -------------------------------------------------- */
+/*
 html {
     position: relative;
     min-height: 100%;
 }
 body {
-    /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
+*/
 .footer {
     position: absolute;
     bottom: 0;
@@ -50,4 +51,10 @@ code {
 }
 .footer .copyright{
     font-size: 11px;
+}
+.footer-col-left {
+    padding-right: 5px;
+}
+.footer-col-right {
+    padding-left: 5px;
 }

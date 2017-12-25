@@ -1,6 +1,6 @@
 <?php
 $companyFullName = "江阴福瑞来网络技术有限公司 FREELIFE";
-$companyShortName = "FREELIFE 福瑞来";
+$companyShortName = "SHHW";
 $qrcodeImg = 'qrcode.jpg';
 //$companyFullName = '上海鸿维';
 //$companyShortName = '上海鸿维';

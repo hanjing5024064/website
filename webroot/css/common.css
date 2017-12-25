@@ -1,3 +1,12 @@
+.container{
+    min-height: 30rem;
+}
+.header {
+    min-height: 5rem;
+}
+.content {
+    min-height: 25rem;
+}
 #particles-js {
     position: absolute;
     /*background: #323840;*/
@@ -16,12 +25,15 @@
     vertical-align: -0.15em;
     fill: currentColor;
     overflow: hidden;
+    color: white;
 }
 .index-icon{
     width: 10em; height: 10em; color: #44b549;
 }
 .index-card {
-    margin: 40px;
+    /*margin: 20px;*/
+    padding: 5px;
+    background-color: white;
 }
 .card-text {
     /*text-indent:2em;*/
