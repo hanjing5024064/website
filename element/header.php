@@ -13,7 +13,7 @@
           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/footer.css"/>
-    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/footer.css?v=1.001"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css?v=1.001"/>
 </head>
 <body>
