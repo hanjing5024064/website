@@ -130,6 +130,20 @@
                 el: '.swiper-pagination',
             },
         });
+
+        var swiperThree = new Swiper('.swiper-container-website', {
+            effect: 'fade',
+            grabCursor: true,
+            autoplay: {
+                delay: 3000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            fadeEffect: {
+                crossFade: true
+            },
+        });
     });
 </script>
 </body>

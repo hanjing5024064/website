@@ -5,8 +5,9 @@
     min-height: 4rem;
 }
 .content {
-    min-height: 25rem;
-    margin-top: 1rem;
+    min-height: 24rem;
+    margin-top: 0.5rem;
+    z-index: 999;
 }
 #particles-js {
     position: absolute;
@@ -42,7 +43,7 @@
 }
 
 /*swiper*/
-.swiper-slide>img{
+.swiper-slide-wechat>img{
     /*width:100%;*/
     height:400px;
 }

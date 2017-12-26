@@ -6,6 +6,9 @@
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
+			<li class="nav-item <?php if(isset($nav) && $nav == 'index')echo 'active';?>">
+				<a class="nav-link" href="?nav=index"><i class="fa fa-home"></i>首页</a>
+			</li>
 			<li class="nav-item <?php if(isset($nav) && $nav == 'wechat')echo 'active';?>">
 				<a class="nav-link" href="?nav=wechat"><i class="fa fa-tasks"></i>微信</a>
 			</li>

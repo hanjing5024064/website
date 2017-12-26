@@ -5,10 +5,10 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="img/wechat/1.png"/></div>
-                <div class="swiper-slide"><img src="img/wechat/2.png"/></div>
-                <div class="swiper-slide"><img src="img/wechat/3.png"/></div>
-                <div class="swiper-slide"><img src="img/wechat/4.png"/></div>
+                <div class="swiper-slide swiper-slide-wechat"><img src="img/wechat/3.png"/></div>
+                <div class="swiper-slide swiper-slide-wechat"><img src="img/wechat/2.png"/></div>
+                <div class="swiper-slide swiper-slide-wechat"><img src="img/wechat/4.png"/></div>
+                <div class="swiper-slide swiper-slide-wechat"><img src="img/wechat/1.png"/></div>
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
