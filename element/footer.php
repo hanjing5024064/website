@@ -95,7 +95,7 @@
 <!--阿里字体-->
 <script src="//at.alicdn.com/t/font_520464_fa1ldzv0wq7u8fr.js"></script>
 <!--swiper-->
-<script src="js/swiper.jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script>
     $(function(){
         /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */

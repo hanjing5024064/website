@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/footer.css?v=1.001"/>
     <link rel="stylesheet" type="text/css" href="css/common.css?v=1.003"/>
-    <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css">
+
 </head>
 <body>
