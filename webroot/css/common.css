@@ -6,6 +6,7 @@
 }
 .content {
     min-height: 25rem;
+    margin-top: 1rem;
 }
 #particles-js {
     position: absolute;
@@ -28,16 +29,16 @@
     color: white;
 }
 .index-icon{
-    width: 10em; height: 10em; color: #29458a;
+    width: 10em; height: 10em; color: #347eff;
 }
 .index-card {
-    /*margin: 20px;*/
+    /*margin-top: 20px;*/
     padding: 10px;
     background-color: white;
 }
 .card-text {
     /*text-indent:2em;*/
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 /*swiper*/
@@ -47,5 +48,11 @@
 }
 
 .swiper-pagination{
+    margin-top: 10px;
+}
+.btn-primary{
+    background-color: #347eff;
+}
+.index-card-button{
     margin-top: 10px;
 }

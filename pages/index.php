@@ -64,7 +64,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <a href="?nav=wechat" class="btn btn-primary">了解更多</a>
+                            <a href="?nav=wechat" class="btn btn-primary index-card-button">了解更多</a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <a href="?nav=website" class="btn btn-primary">了解更多</a>
+                            <a href="?nav=website" class="btn btn-primary index-card-button">了解更多</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12 text-center">
+                        <div class="col-lg-12 text-center index-card-button">
                             <a href="?nav=itservice" class="btn btn-primary">了解更多</a>
                         </div>
                     </div>

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/footer.css?v=1.001"/>
-    <link rel="stylesheet" type="text/css" href="css/common.css?v=1.004"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css?v=1.002"/>
     <link rel="stylesheet" href="css/swiper.min.css">
 
 </head>
