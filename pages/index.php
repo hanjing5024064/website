@@ -110,11 +110,11 @@
                             <p class="card-text">开发团队培训, 管理咨询</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-12 text-center index-card-button">
-                            <a href="?nav=itservice" class="btn btn-primary">了解更多</a>
-                        </div>
-                    </div>
+<!--                    <div class="row">-->
+<!--                        <div class="col-lg-12 text-center index-card-button">-->
+<!--                            <a href="?nav=itservice" class="btn btn-primary"></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>

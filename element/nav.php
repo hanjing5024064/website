@@ -21,9 +21,9 @@
 <!--			<li class="nav-item --><?php //if(isset($nav) && $nav == 'iot')echo 'active';?><!--">-->
 <!--				<a class="nav-link" href="iot.php"><i class="glyphicon glyphicon-link"></i>物联网</a>-->
 <!--			</li>-->
-			<li class="nav-item <?php if(isset($nav) && $nav == 'itservice')echo 'active';?>">
-				<a class="nav-link" href="?nav=itservice"><i class="fa fa-table"></i>服务</a>
-			</li>
+<!--			<li class="nav-item --><?php //if(isset($nav) && $nav == 'itservice')echo 'active';?><!--">-->
+<!--				<a class="nav-link" href="?nav=itservice"><i class="fa fa-table"></i>服务</a>-->
+<!--			</li>-->
 <!--			<li class="nav-item --><?php //if(isset($nav) && $nav == 'aboutus')echo 'active';?><!--">-->
 <!--				<a class="nav-link" href="aboutus.php"><i class="fa fa-globe"></i>关于我们</a>-->
 <!--			</li>-->
