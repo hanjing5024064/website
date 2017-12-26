@@ -93,7 +93,7 @@
         crossorigin="anonymous"></script>
 <script src="js/particles.min.js"></script>
 <!--阿里字体-->
-<script src="//at.alicdn.com/t/font_520464_fa1ldzv0wq7u8fr.js"></script>
+<script src="//at.alicdn.com/t/font_520464_vfkj3o4ets5uerk9.js"></script>
 <!--swiper-->
 <script src="js/swiper.min.js"></script>
 <script>
@@ -117,6 +117,17 @@
             },
             autoplay: {
                 delay: 5000,
+            },
+        });
+
+        var swiperTwo = new Swiper('.swiper-container', {
+            effect: 'flip',
+            grabCursor: true,
+            autoplay: {
+                delay: 5000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
             },
         });
     });
