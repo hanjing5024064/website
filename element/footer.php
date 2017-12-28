@@ -65,15 +65,21 @@
             <div class="col-12 footer-col-right">
                 <div class="col-12 text-left footer-col-right">
                     <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                    <a href="tel:15190351982"><?php echo $contactQQ?></a>
+                </div>
+                <div class="col-12 text-left footer-col-right">
+                    <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-dianhua"></use>
                     </svg>
-                    <a href="tel:15190351982">15190351982</a>
+                    <a href="tel:15190351982"><?php echo $contactPhone?></a>
                 </div>
                 <div class="col-12 text-left footer-col-right">
                     <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-youxiang"></use>
                     </svg>
-                    <a href="mailto:info@test.com">info@test.com</a>
+                    <a href="mailto:info@test.com"><?php echo $contactMail?></a>
                 </div>
             </div>
         </div>
@@ -93,7 +99,8 @@
         crossorigin="anonymous"></script>
 <script src="js/particles.min.js"></script>
 <!--阿里字体-->
-<script src="//at.alicdn.com/t/font_520464_vfkj3o4ets5uerk9.js"></script>
+<script src="//at.alicdn.com/t/font_520464_2z6wea9xxjzzd7vi.js"></script>
+
 <!--swiper-->
 <script src="js/swiper.min.js"></script>
 <script>

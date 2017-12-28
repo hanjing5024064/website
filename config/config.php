@@ -7,7 +7,8 @@ $qrcodeImg = 'qrcode.jpg';
 //$qrcodeImg = 'qrcode_ytzh.jpg';
 $icpCode = '苏ICP备17071225号-1';
 $policeCode = '京公网安备11000002000016号';
-$contactPhone = '15190351982';
-$contactMail = 'info@shhwxx.com.cn';
+$contactQQ = '2797512099';
+$contactPhone = '15190351985';
+$contactMail = 'info@jyfrl.com';
 
 $baseDir = '../';

@@ -54,7 +54,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <svg class="icon index-icon" aria-hidden="true">
+                            <svg class="icon index-icon wechat-icon" aria-hidden="true">
                                 <use xlink:href="#icon-weixin"></use>
                             </svg>
                             <p class="card-text">基于微信公众号/小程序</p>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <svg class="icon index-icon" aria-hidden="true">
+                            <svg class="icon index-icon website-icon" aria-hidden="true">
                                 <use xlink:href="#icon-xiangyingshi"></use>
                             </svg>
                             <p class="card-text">交互式-评价, 收藏, 留言互动</p>
@@ -102,7 +102,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <svg class="icon index-icon" aria-hidden="true">
+                            <svg class="icon index-icon itservice-icon" aria-hidden="true">
                                 <use xlink:href="#icon-fuwu"></use>
                             </svg>
                             <p class="card-text">物联网系统集成</p>

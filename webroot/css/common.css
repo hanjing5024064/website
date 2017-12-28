@@ -30,16 +30,29 @@
     color: white;
 }
 .index-icon{
-    width: 10em; height: 10em; color: #347eff;
+    width: 10em; height: 10em;color:white;
 }
+/*.wechat-icon {*/
+    /*color: #44B549;*/
+/*}*/
+/*.website-icon {*/
+    /*color: yellow;*/
+/*}*/
+/*.itservice-icon {*/
+    /*color: #fd7e14;*/
+/*}*/
 .index-card {
     /*margin-top: 20px;*/
     padding: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.card-title {
+    color: white;
 }
 .card-text {
     /*text-indent:2em;*/
     margin-bottom: 3px;
+    color: white;
 }
 
 /*swiper*/
