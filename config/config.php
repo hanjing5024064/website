@@ -17,9 +17,12 @@ $contactPhone = '联系手机';
 $contactMail = '联系邮箱';
 
 /*
- * wechat share infro
+ * wechat infro
  */
 $shareTitle = '分享标题';
 $shareDesc = '分享描述';
 $shareLink = '分享链接';//http://www.***.com
 $shareImg = '分享图片地址';//http://www.***.com/img/logo.png
+
+$appid = 'gzh_appid';
+$secret = 'gzh_secret';

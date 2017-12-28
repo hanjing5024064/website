@@ -8,8 +8,8 @@
 use EasyWeChat\Factory;
 
 $config = [
-    'app_id' => 'wxbbda5e0aec148a11',
-    'secret' => '108151bca2b97fd0d8885529a4c9c7f7',
+    'app_id' => $appid,
+    'secret' => $secret,
 
     // 指定 API 调用返回结果的类型：array(default)/collection/object/raw/自定义类名
     'response_type' => 'array',
