@@ -10,6 +10,6 @@ $icpCode = '沪ICP备17006400号-1';
 $policeCode = '';
 $contactQQ = '5024064';
 $contactPhone = '18516087466';
-$contactMail = 'info@jyfrl.com';
+$contactMail = 'info@shhwxx.cn';
 
 $baseDir = '../';
