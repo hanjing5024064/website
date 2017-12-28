@@ -1,15 +1,11 @@
 <?php
-$companyFullName = "上海鸿维信息技术有限公司";
-$companyShortName = "上海鸿维";
-//$qrcodeImg = 'qrcode.jpg';
+$companyFullName = "公司全称";
+$companyShortName = "公司简称";
 $qrcodeImg = 'qrcode_ytzh.jpg';
-//$companyFullName = '上海鸿维';
-//$companyShortName = '上海鸿维';
-//$qrcodeImg = 'qrcode_ytzh.jpg';
-$icpCode = '沪ICP备17006400号-1';
+$icpCode = '备案号';
 $policeCode = '';
-$contactQQ = '5024064';
-$contactPhone = '18516087466';
-$contactMail = 'info@shhwxx.cn';
+$contactQQ = '联系QQ';
+$contactPhone = '联系手机';
+$contactMail = '联系邮箱';
 
 $baseDir = '../';
