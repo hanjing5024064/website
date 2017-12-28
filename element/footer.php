@@ -58,7 +58,7 @@
 
 <div class="row">
     <div class="col-5 text-right footer-col-left">
-        <img src="img/qrcode.jpg" alt="Responsive image" style="width:70px;height:70px;">
+        <img src="img/<?php echo $qrcodeImg;?>" alt="Responsive image" style="width:70px;height:70px;">
     </div>
     <div class="col-7 align-self-center">
         <div class="row">
