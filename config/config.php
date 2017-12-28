@@ -1,15 +1,15 @@
 <?php
-$companyFullName = "福瑞来科技 FREELIFE";
-$companyShortName = "FREELIFE 福瑞来";
+$companyFullName = "上海鸿维信息技术有限公司";
+$companyShortName = "上海鸿维";
 //$qrcodeImg = 'qrcode.jpg';
-$qrcodeImg = 'qrcode.jpg';
+$qrcodeImg = 'qrcode_ytzh.jpg';
 //$companyFullName = '上海鸿维';
 //$companyShortName = '上海鸿维';
 //$qrcodeImg = 'qrcode_ytzh.jpg';
-$icpCode = '苏ICP备17071225号-1';
+$icpCode = '沪ICP备17006400号-1';
 $policeCode = '';
-$contactQQ = '2797512099';
-$contactPhone = '15190351982';
-$contactMail = 'info@jyfrl.com';
+$contactQQ = '5024064';
+$contactPhone = '18516087466';
+$contactMail = 'info@shhwxx.cn';
 
 $baseDir = '../';
