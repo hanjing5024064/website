@@ -15,7 +15,10 @@
 
     <link rel="stylesheet" type="text/css" href="css/footer.css?v=1.001"/>
     <link rel="stylesheet" type="text/css" href="css/common.css?v=1.005"/>
-    <link rel="stylesheet" href="css/swiper.min.css">
+
+<!--    swiper-->
+<!--    <link rel="stylesheet" href="css/swiper.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
 
 </head>
 <body>

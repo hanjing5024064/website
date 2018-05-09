@@ -99,10 +99,11 @@
         crossorigin="anonymous"></script>
 <script src="js/particles.min.js"></script>
 <!--阿里字体-->
-<script src="//at.alicdn.com/t/font_520464_2z6wea9xxjzzd7vi.js"></script>
+<script src="//at.alicdn.com/t/font_520464_w5k4r97sz0azto6r.js"></script>
 
 <!--swiper-->
-<script src="js/swiper.min.js"></script>
+<!--<script src="js/swiper.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
 <script>
     $(function(){
         /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
@@ -122,9 +123,16 @@
                 modifier: 1,
                 slideShadows : true,
             },
+            autoHeight: true,
             autoplay: {
-                delay: 5000,
+                delay: 3000,
             },
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            preloadImages:false,
         });
 
         var swiperTwo = new Swiper('.swiper-container', {
