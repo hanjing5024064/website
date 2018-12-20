@@ -33,11 +33,13 @@ switch ($nav) {
         <div class="col-12 align-self-center header" id="header">
             <?php include($baseDir . 'element/nav.php'); ?>
         </div>
-
+    </div>
+    <div class="row align-items-center">
         <div class="col-12 align-self-center content">
             <?php if ($nav && file_exists($baseDir . 'pages/' . $nav . '.php')) include($baseDir . 'pages/' . $nav . '.php'); ?>
         </div>
-
+    </div>
+    <div class="row align-items-center">
         <div class="col-12 align-self-center footer">
             <?php include($baseDir . 'element/footer.php'); ?>
         </div>
