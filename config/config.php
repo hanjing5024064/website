@@ -9,7 +9,7 @@ $baseDir = '../';
  */
 $companyFullName = '公司全称';
 $companyShortName = '公司简称';
-$qrcodeImg = 'qrcode_ytzh.jpg';
+$qrcodeImg = 'qrcode.jpg';
 $icpCode = '备案号';
 $policeCode = '';
 $contactQQ = '88888888';
