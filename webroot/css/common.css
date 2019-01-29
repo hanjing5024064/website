@@ -1,11 +1,14 @@
+body{
+    background: #1ea1ff;
+}
 .container{
     min-height: 30rem;
 }
 .header {
-    min-height: 4rem;
+    min-height: 3rem;
 }
 .content {
-    min-height: 24rem;
+    /*min-height: 24rem;*/
     margin-top: 0.5rem;
     z-index: 999;
 }

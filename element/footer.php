@@ -88,20 +88,15 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/particles.min.js"></script>
 <!--阿里字体-->
-<script src="//at.alicdn.com/t/font_520464_2z6wea9xxjzzd7vi.js"></script>
+<script src="//at.alicdn.com/t/font_520464_w5k4r97sz0azto6r.js"></script>
 
 <!--swiper-->
+<!--<script src="js/swiper.min.js"></script>-->
 <script src="js/swiper.min.js"></script>
 <script>
     $(function(){
@@ -122,9 +117,16 @@
                 modifier: 1,
                 slideShadows : true,
             },
+            autoHeight: true,
             autoplay: {
-                delay: 5000,
+                delay: 3000,
             },
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            preloadImages:false,
         });
 
         var swiperTwo = new Swiper('.swiper-container', {

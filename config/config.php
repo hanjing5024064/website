@@ -24,5 +24,14 @@ $shareDesc = '用科技创造更自由的生活';
 $shareLink = 'http://www.shhwxx.cn';//http://www.***.com
 $shareImg = 'http://www.shhwxx.cn/img/logo.png';//http://www.***.com/img/logo.png
 
-$appid = 'wx5c254d29ac25b6e4';
-$secret = 'e036456d18871d83e3aa6d4523138be5';
+$appid = 'gzh_appid';
+$secret = 'gzh_secret';
+
+/**
+ * pc and mobile layout
+ */
+$layout = [
+  'MobileLayout' => 'layout/website_mb.php',
+  'PCLayout' => 'layout/website_pc.php',
+  'DefaultLayout' => 'layout/website.php'
+];
