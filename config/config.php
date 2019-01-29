@@ -7,8 +7,8 @@ $baseDir = '../';
 /*
  * copy right
  */
-$companyFullName = "公司全称";
-$companyShortName = "公司简称";
+$companyFullName = '公司全称';
+$companyShortName = '公司简称';
 $qrcodeImg = 'qrcode_ytzh.jpg';
 $icpCode = '备案号';
 $policeCode = '';
