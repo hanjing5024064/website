@@ -26,3 +26,12 @@ $shareImg = '分享图片地址';//http://www.***.com/img/logo.png
 
 $appid = 'gzh_appid';
 $secret = 'gzh_secret';
+
+/**
+ * pc and mobile layout
+ */
+$layout = [
+  'MobileLayout' => 'layout/website_mb.php',
+  'PCLayout' => 'layout/website_pc.php',
+  'DefaultLayout' => 'layout/website.php'
+];

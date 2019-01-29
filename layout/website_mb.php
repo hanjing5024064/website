@@ -11,6 +11,9 @@ include($baseDir . 'element/header.php');
 include $baseDir.'lib/Util.php';
 if(Util::isWeChat())include $baseDir.'lib/wechat.php';
 
+$newNev = new Nav();
+$newNev->run();
+
 $nav = array_key_exists('nav', $_GET) ? $_GET['nav'] : 'index';
 switch ($nav) {
     case 'wechat':
