@@ -7,22 +7,22 @@ $baseDir = '../';
 /*
  * copy right
  */
-$companyFullName = "上海鸿维信息技术有限公司";
-$companyShortName = "上海鸿维";
-$qrcodeImg = 'qrcode_hwwl.jpg';
-$icpCode = '沪ICP备17006400号-1';
+$companyFullName = '公司全称';
+$companyShortName = '公司简称';
+$qrcodeImg = 'qrcode.jpg';
+$icpCode = '沪ICP备******';
 $policeCode = '';
-$contactQQ = '79811993';
-$contactPhone = '18516087466';
-$contactMail = 'info@shhwxx.cn';
+$contactQQ = '88888888';
+$contactPhone = '13888888888';
+$contactMail = 'info@compony.cn';
 
 /*
  * wechat infro
  */
-$shareTitle = '上海鸿维';
-$shareDesc = '用科技创造更自由的生活';
-$shareLink = 'http://www.shhwxx.cn';//http://www.***.com
-$shareImg = 'http://www.shhwxx.cn/img/logo.png';//http://www.***.com/img/logo.png
+$shareTitle = '分享标题';
+$shareDesc = '分享描述';
+$shareLink = '公司网站地址';//http://www.***.com
+$shareImg = '分享图片地址';//http://www.***.com/img/logo.png
 
 $appid = 'gzh_appid';
 $secret = 'gzh_secret';
