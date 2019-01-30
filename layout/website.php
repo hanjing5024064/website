@@ -26,7 +26,7 @@ switch ($nav) {
         $title = '首页';
         break;
     default:
-        $title = '首页';
+        $title = $companyShortName;
         break;
 }
 ?>
